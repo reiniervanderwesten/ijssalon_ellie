@@ -15,4 +15,6 @@ reclame_tekst2= reclame_tekst[:62]
 
 reclame_tekst3=reclame_tekst2.upper()
 reclame_tekst4=reclame_tekst3.split()
-print(reclame_tekst4)
+
+for el in reclame_tekst4 :
+    print(el)
