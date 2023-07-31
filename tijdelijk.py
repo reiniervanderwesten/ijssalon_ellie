@@ -12,4 +12,6 @@ Met het oog op het vervolg van de opdracht ga ik daarom uit van aardbei voor de 
 '''
 reclame_tekst= f"vandaag in de aanbieding: aardbei-ijs, 1 liter- slechts € {aanbieding}"
 reclame_tekst2= reclame_tekst[:62]
-print(reclame_tekst2)
+
+reclame_tekst3=reclame_tekst2.upper()
+print(reclame_tekst3)
