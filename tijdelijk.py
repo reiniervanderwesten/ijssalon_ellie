@@ -21,6 +21,9 @@ def print_aanbieding():
         else:
             print(el)
 
+
+
 decoreer("Aanbieding")
+
 
 print_aanbieding()
