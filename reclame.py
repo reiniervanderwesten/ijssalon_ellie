@@ -6,11 +6,12 @@ def aanbieding_1(smaak, prijs, korting):
 
 aanbieding_1("aardbei", 4, 0.1)
 
-def inkomsten_totaal(inkomsten):
+def inkomsten_totaal(inkomsten, btw):
     totaal=0
     for nr in inkomsten:
         totaal+=nr
     
-    return totaal
+    bedrag=btw*totaal
+    print(f"Het totaal van alle inkomsten van deze week is {totaal} euro, waarover {bedrag} euro btw betaald dient te worden.")
 
-print(inkomsten_totaal([220, 430, 125, 160,205,90,345]))
+inkomsten_totaal([220, 430, 125, 160,205,90,345], 0.09)
