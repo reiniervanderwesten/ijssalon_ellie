@@ -6,8 +6,9 @@ def mijn_functie_2(a,b):
     d=a-b
     e=a*b
     f=a/b
+    
 
     print(c, d, e, f)
     
 
-print(mijn_functie_2(12,3))
+mijn_functie_2(12,3)
