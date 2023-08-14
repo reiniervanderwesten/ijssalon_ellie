@@ -27,3 +27,11 @@ def laag_en_hoog(mijn_lijst):
     print([c,d])
 
 laag_en_hoog([220,430, 125, 160, 205, 90, 345])
+
+def gemiddelde(mijn_lijst):
+    som=sum(mijn_lijst)
+    gemiddeld=som/len(mijn_lijst)
+    
+    print(gemiddeld)
+
+gemiddelde([220,430,125,160, 205, 90, 345])
