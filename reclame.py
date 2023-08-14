@@ -32,6 +32,6 @@ def gemiddelde(mijn_lijst):
     som=sum(mijn_lijst)
     gemiddeld=som/len(mijn_lijst)
     
-    print(gemiddeld)
+    print( f"De gemiddelde inkomsten deze week zijn {gemiddeld} euro.")
 
 gemiddelde([220,430,125,160, 205, 90, 345])
