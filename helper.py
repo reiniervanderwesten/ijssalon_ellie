@@ -16,3 +16,7 @@ def onderstreep(tekst=""):
     uit.append("*"*len(tekst))
     return uit
     
+def som(enkel_dictionary):
+    waarden=enkel_dictionary.values()
+    total=sum(waarden)
+    return total
